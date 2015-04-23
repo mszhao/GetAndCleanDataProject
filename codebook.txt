@@ -1,0 +1,51 @@
+DATA DICTIONARY - project
+
+Subject
+	people who performed the activities 
+	1-30 for each person
+Activity	
+	Activity performed:
+	WALKING
+;
+ 	WALKING_UPSTAIRS;
+
+	WALKING_DOWNSTAIRS
+;
+	SITTING
+5 
+	STANDING
+
+	LAYING
+
+Signal
+	 signals were used to estimate variables of the feature vector for each pattern:
+	tBodyAcc
+	tGravityAcc
+	tBodyAccJerk
+	tBodyGyro
+	tBodyGyroJerk
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
+	fBodyAcc
+	fBodyAccJerk
+	fBodyGyro
+	fBodyAccMag
+	fBodyAccJerkMag
+	fBodyGyroMag
+	fBodyGyroJerkMag
+	gravityMean
+	tBodyAccMean
+	tBodyAccJerkMean
+	tBodyGyroMean
+	tBodyGyroJerkMean
+Variable
+	mean(): Mean value
+	std(): Standard deviation
+Axis
+	X,Y,Z directions
+
+measurement
+	average of the measurement of every feature variable vectore for every subject on every activity performed
